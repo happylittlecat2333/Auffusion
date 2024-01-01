@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+experiment/
+test/
+output/
+ckpt/
+audioldm_eval/
+wandb/
+hifigan/
+huggingface_checkpoint/
+pretrained/
+
+evaluate*
+extract_*
+preprocess*
+train_*
+inference_*
+test.*

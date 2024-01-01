@@ -1,0 +1,19 @@
+
+accelerate
+diffusers==0.18.2
+einops
+huggingface_hub
+ipykernel
+librosa==0.9.2
+matplotlib
+numpy
+tqdm
+scikit-learn
+scipy
+soundfile==0.12.1
+tokenizers==0.13.3
+torch==2.0.1
+torchaudio==2.0.2
+torchvision==0.15.2
+transformers @ git+https://github.com/huggingface/transformers.git@f9a711df4a899d8586a62eabe6005334412936e8
+xformers==0.0.20
