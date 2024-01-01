@@ -1,5 +1,4 @@
 
-MODEL_NAME="/home/xjl/Project/Audio/T2A/Auffusion/huggingface_checkpoint/auffusion"
 MODEL_NAME="auffusion/auffusion"
 test_data_dir="./data/test_audiocaps.raw.json"  
 output_dir="./output/auffusion"
