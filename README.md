@@ -2,7 +2,8 @@
 
 <!-- ![cover](img/tango-neurips.png) -->
 
-[Paper[TODO]]([TODO]) | [Model](https://huggingface.co/auffusion/auffusion) | [Website and Examples](https://auffusion.github.io) | [Audio Manipulation Notebooks](https://github.com/happylittlecat2333/Auffusion/tree/main/notebooks/README.md) | [Huggingface Demo[TODO]](https://huggingface.co/spaces/auffusion/auffusion) 
+[Paper](https://arxiv.org/pdf/2401.01044) | [Model](https://huggingface.co/auffusion/auffusion) | [Website and Examples](https://auffusion.github.io) | [Audio Manipulation Notebooks](https://github.com/happylittlecat2333/Auffusion/tree/main/notebooks/README.md) | [Huggingface Models](https://huggingface.co/auffusion) 
+
 
 ## Description
 
@@ -135,19 +136,25 @@ The audio manipulation code examples can all be found in [notebooks](notebooks/R
 Please consider citing the following article if you found our work useful:
 
 ```bibtex
-@article{[TODO]}
+@article{xue2024auffusion,
+  title={Auffusion: Leveraging the Power of Diffusion and Large Language Models for Text-to-Audio Generation}, 
+  author={Jinlong Xue and Yayue Deng and Yingming Gao and Ya Li},
+  journal={arXiv preprint arXiv:2401.01044},
+  year={2024}
+}
 ```
 
 ## 🙏 Acknowledgement
 Part of the code is borrowed from the following repos. We would like to thank the authors of these repos for their contribution.
 
-> https://github.com/huggingface/diffusers
+- https://github.com/huggingface/diffusers
 
-> https://github.com/huggingface/transformers
+- https://github.com/huggingface/transformers
 
-> https://github.com/google/prompt-to-prompt
+- https://github.com/google/prompt-to-prompt
 
-> https://github.com/declare-lab/tango
+- https://github.com/declare-lab/tango
 
-> https://github.com/haoheliu/audioldm_eval
+-  https://github.com/haoheliu/audioldm_eval
+
 
