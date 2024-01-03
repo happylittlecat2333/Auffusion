@@ -15,5 +15,5 @@ tokenizers==0.13.3
 torch==2.0.1
 torchaudio==2.0.2
 torchvision==0.15.2
-transformers @ git+https://github.com/huggingface/transformers.git@f9a711df4a899d8586a62eabe6005334412936e8
+transformers
 xformers==0.0.20
