@@ -15,7 +15,7 @@
 
 
 ## 🚀 News
-- **2024/01/02**: 📣 Colab notebook for audio manipulation is released. Details in [notebooks](notebooks/README.md).
+- **2024/01/02**: 📣 [Colab notebooks](notebooks/README.md) for audio manipulation is released. Feel free to try!
 
 - **2023/12/31**: 📣 Auffusion release.[Demo website](https://auffusion.github.io/) and 3 models are released in [Huggingface](https://huggingface.co/auffusion). 
 
@@ -158,3 +158,6 @@ Part of the code is borrowed from the following repos. We would like to thank th
 -  https://github.com/haoheliu/audioldm_eval
 
 
+## Contact
+
+If you have any problems regarding the paper, code, models, or the project itself, please feel free to open an issue or contact [Jinlong Xue](mailto:jinlong_xue@bupt.edu.cn) directly :)
