@@ -1,6 +1,5 @@
 # Auffusion: Leveraging the Power of Diffusion and Large Language Models for Text-to-Audio Generation
 
-<!-- ![cover](img/tango-neurips.png) -->
 
 [Paper](https://arxiv.org/pdf/2401.01044) | [Model](https://huggingface.co/auffusion/auffusion) | [Website and Examples](https://auffusion.github.io) | [Audio Manipulation Notebooks](https://github.com/happylittlecat2333/Auffusion/tree/main/notebooks/README.md) | [Huggingface Models](https://huggingface.co/auffusion) 
 
