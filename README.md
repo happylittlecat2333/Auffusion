@@ -30,6 +30,25 @@
 
 
 
+## 📀 Prerequisites
+
+Our code is built on pytorch version 2.0.1. We mention `torch==2.0.1` in the requirements file but you might need to install a specific cuda version of torch depending on your GPU device type. We also depend on `diffusers==0.18.2`.
+
+Install `requirements.txt`.
+
+```bash
+git clone https://github.com/happylittlecat2333/Auffusion/
+cd Auffusion
+pip install -r requirements.txt
+```
+
+You might also need to install `libsndfile1` for soundfile to work properly in linux:
+
+```bash
+(sudo) apt-get install libsndfile1
+```
+
+
 ## ⭐ Quickstart Guide
 
 Download the **Auffusion** model and generate audio from a text prompt:
@@ -60,25 +79,8 @@ IPython.display.Audio(data=audio, rate=16000)
 ```
 
 
-More generated samples are shown [here](https://auffusion.github.io).
+More generated samples are shown [here](https://auffusion.github.io). You can also try out the [colab notebook](https://colab.research.google.com/drive/1JEPHT_AvHZxvlaZAsetkBnMrzCGMRKaf?usp=sharing) to generate your own audio samples.
 
-## 📀 Prerequisites
-
-Our code is built on pytorch version 2.0.1. We mention `torch==2.0.1` in the requirements file but you might need to install a specific cuda version of torch depending on your GPU device type. We also depend on `diffusers==0.18.2`.
-
-Install `requirements.txt`.
-
-```bash
-git clone https://github.com/happylittlecat2333/Auffusion/
-cd Auffusion
-pip install -r requirements.txt
-```
-
-You might also need to install `libsndfile1` for soundfile to work properly in linux:
-
-```bash
-(sudo) apt-get install libsndfile1
-```
 
 ## 🐍 How to make inferences?
 
