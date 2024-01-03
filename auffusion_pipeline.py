@@ -885,7 +885,7 @@ class AuffusionPipeline(DiffusionPipeline):
         prompt: Union[str, List[str]] = None,
         height: Optional[int] = 256,
         width: Optional[int] = 1024,
-        num_inference_steps: int = 50,
+        num_inference_steps: int = 100,
         guidance_scale: float = 7.5,
         negative_prompt: Optional[Union[str, List[str]]] = None,
         num_images_per_prompt: Optional[int] = 1,

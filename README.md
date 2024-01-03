@@ -1,7 +1,7 @@
 # Auffusion: Leveraging the Power of Diffusion and Large Language Models for Text-to-Audio Generation
 
 
-[Paper](https://arxiv.org/pdf/2401.01044) | [Model](https://huggingface.co/auffusion/auffusion) | [Website and Examples](https://auffusion.github.io) | [Audio Manipulation Notebooks](https://github.com/happylittlecat2333/Auffusion/tree/main/notebooks/README.md) | [Huggingface Models](https://huggingface.co/auffusion) 
+[Paper](https://arxiv.org/pdf/2401.01044) | [Model](https://huggingface.co/auffusion/auffusion) | [Website and Examples](https://auffusion.github.io) | [Audio Manipulation Notebooks](https://github.com/happylittlecat2333/Auffusion/tree/main/notebooks/README.md) | [Huggingface Models](https://huggingface.co/auffusion) | [Google Colab](https://colab.research.google.com/drive/1JEPHT_AvHZxvlaZAsetkBnMrzCGMRKaf?usp=sharing)
 
 
 ## Description
@@ -15,8 +15,9 @@
 
 
 ## 🚀 News
+- **2024/01/02**: 📣 Colab notebook for audio manipulation is released. Details in [notebooks](notebooks/README.md).
 
-- **2023/12/31**: Auffusion release.📣 [Demo website](https://auffusion.github.io/) and 3 models are released in [Huggingface](https://huggingface.co/auffusion). 
+- **2023/12/31**: 📣 Auffusion release.[Demo website](https://auffusion.github.io/) and 3 models are released in [Huggingface](https://huggingface.co/auffusion). 
 
 
 ## Auffusion Model Family
@@ -103,11 +104,11 @@ Some data instances originally released in AudioCaps have since been removed fro
 
 We show some examples of audio manipulation using Auffusion. Current audio manipulation methods include:
 
-- Text-to-audio generation
-- Text-guided style transfer
-- Audio inpainting
-- attention-based word swap control
-- attention-based reweight control
+- Text-to-audio generation: [notebook](notebooks/text_to_audio.ipynb) or [colab](https://colab.research.google.com/drive/1JEPHT_AvHZxvlaZAsetkBnMrzCGMRKaf?usp=sharing)
+- Text-guided style transfer: [notebook](notebooks/img2img.ipynb) or [colab](https://colab.research.google.com/drive/1VjgryIz7kSXDzgCClqtqVgoDXIECeG0M?usp=sharing)
+- Audio inpainting: [notebook](notebooks/inpainting.ipynb) or [colab](https://colab.research.google.com/drive/1NsqeiutoAynhtaZnlhzBdTXtZ27tQxVc?usp=sharing)
+- attention-based word swap control: [notebook](notebooks/word_swap.ipynb) or [colab](https://colab.research.google.com/drive/18CtUoBMsPbgzeI-o0wHDYTtaErnq9KoI?usp=sharing)
+- attention-based reweight control: [notebook](notebooks/reweight.ipynb) or [colab](https://colab.research.google.com/drive/18CtUoBMsPbgzeI-o0wHDYTtaErnq9KoI?usp=sharing)
 
 The audio manipulation code examples can all be found in [notebooks](notebooks/README.md).
 
