@@ -2,7 +2,7 @@
 accelerate
 diffusers==0.18.2
 einops
-huggingface_hub
+huggingface_hub==0.16.4
 ipykernel
 librosa==0.9.2
 matplotlib
