@@ -1,7 +1,7 @@
 # Auffusion: Leveraging the Power of Diffusion and Large Language Models for Text-to-Audio Generation
 
 
-[Paper](https://arxiv.org/pdf/2401.01044) | [Model](https://huggingface.co/auffusion/auffusion) | [Website and Examples](https://auffusion.github.io) | [Audio Manipulation Notebooks](https://github.com/happylittlecat2333/Auffusion/tree/main/notebooks/README.md) | [Huggingface Models](https://huggingface.co/auffusion) | [Google Colab](https://colab.research.google.com/drive/1JEPHT_AvHZxvlaZAsetkBnMrzCGMRKaf?usp=sharing)
+[Paper](https://arxiv.org/pdf/2401.01044) | [Model](https://huggingface.co/auffusion/auffusion) | [Website and Examples](https://auffusion.github.io) | [Audio Manipulation Notebooks](https://github.com/happylittlecat2333/Auffusion/tree/main/notebooks/README.md) | [Hugging Face Models](https://huggingface.co/auffusion) | [Google Colab](https://colab.research.google.com/drive/1JEPHT_AvHZxvlaZAsetkBnMrzCGMRKaf?usp=sharing)
 
 
 ## Description
@@ -17,7 +17,7 @@
 ## 🚀 News
 - **2024/01/02**: 📣 [Colab notebooks](notebooks/README.md) for audio manipulation is released. Feel free to try!
 
-- **2023/12/31**: 📣 Auffusion release.[Demo website](https://auffusion.github.io/) and 3 models are released in [Huggingface](https://huggingface.co/auffusion). 
+- **2023/12/31**: 📣 Auffusion release.[Demo website](https://auffusion.github.io/) and 3 models are released in [Hugging Face](https://huggingface.co/auffusion). 
 
 
 ## Auffusion Model Family
@@ -67,7 +67,7 @@ sf.write(f"{prompt}.wav", audio, samplerate=16000)
 IPython.display.Audio(data=audio, rate=16000)
 ```
 
-The auffusion model will be automatically downloaded from huggingface and saved in cache. Subsequent runs will load the model directly from cache.
+The auffusion model will be automatically downloaded from Hugging Face and saved in cache. Subsequent runs will load the model directly from cache.
 
 The `generate` function uses 100 steps and 7.5 guidance_scale by default to sample from the latent diffusion model. You can also vary parameters for different results.
 
@@ -86,7 +86,7 @@ More generated samples are shown [here](https://auffusion.github.io). You can al
 
 ### From our released checkpoints in Hugging Face Hub
 
-To perform audio generation in AudioCaps test set from our huggingface checkpoints:
+To perform audio generation in AudioCaps test set from our Hugging Face checkpoints:
 
 ```bash
 python inference.py \
