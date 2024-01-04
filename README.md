@@ -157,6 +157,8 @@ Part of the code is borrowed from the following repos. We would like to thank th
 
 - https://github.com/declare-lab/tango
 
+- https://github.com/riffusion/riffusion
+
 -  https://github.com/haoheliu/audioldm_eval
 
 
