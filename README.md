@@ -125,10 +125,10 @@ The audio manipulation code examples can all be found in [notebooks](notebooks/R
 - [x] Add audio inpainting.
 - [x] Add word_swap and reweight prompt2prompt-based control.
 - [ ] Add audio super-resolution.
-- [ ] Build Gradio web application
-- [ ] Add audio-to-audio, inpainting into Gradio web application
-- [ ] Add style-transfer into Gradio web application
-- [ ] Add audio super-resolution into Gradio web application
+- [ ] Build Gradio web application.
+- [ ] Add audio-to-audio, inpainting into Gradio web application.
+- [ ] Add style-transfer into Gradio web application.
+- [ ] Add audio super-resolution into Gradio web application.
 - [ ] Add prompt2prompt-based control into Gradio web application.
 - [ ] Add data preprocess and training code.
 
