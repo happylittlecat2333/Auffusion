@@ -742,6 +742,7 @@ class AuffusionPipeline(DiffusionPipeline):
                 )
             elif isinstance(negative_prompt, str):
                 negative_prompt = [negative_prompt]
+                negative_prompt_embeds = get_prompt_embeds(negative_prompt, device)
             elif batch_size != len(negative_prompt):
                 raise ValueError(
                     f"`negative_prompt`: {negative_prompt} has batch size {len(negative_prompt)}, but `prompt`:"
